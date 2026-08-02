@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="description"
+      content="街機風固定畫面太空射擊：幾何機體、波次敵人、自製音效。純前端 Playgrounds SAM。"
+    />
+    <title>星屑出擊</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <header class="hero">
+        <h1>星屑出擊</h1>
+        <p class="tagline">固定畫面 · 幾何機體 · 純娛樂</p>
+      </header>
+
+      <section class="meter" aria-label="分數">
+        <div class="meter-item">
+          <span class="label">分數</span>
+          <strong id="score">0</strong>
+        </div>
+        <div class="meter-item">
+          <span class="label">命</span>
+          <strong id="lives">3</strong>
+        </div>
+        <div class="meter-item">
+          <span class="label">波次</span>
+          <strong id="wave">1</strong>
+        </div>
+        <div class="meter-actions">
+          <button type="button" id="btn-mute" class="secondary" aria-pressed="true">
+            音效開
+          </button>
+        </div>
+      </section>
+
+      <div class="stage">
+        <canvas
+          id="game"
+          width="480"
+          height="640"
+          role="img"
+          aria-label="星屑出擊遊戲區"
+        ></canvas>
+      </div>
+
+      <p id="status" class="status" role="status">準備出擊</p>
+
+      <div class="controls">
+        <button type="button" id="btn-start">出擊</button>
+        <button type="button" id="btn-reset" class="secondary">重來</button>
+      </div>
+
+      <p class="hint">
+        滑鼠／觸控拖移自機；← → 或 A D 亦可。出擊後自動連射；空白鍵也可開火。
+      </p>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
