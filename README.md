@@ -4,14 +4,14 @@
 
 名稱、機體與關卡為原創小品，致敬「固定畫面太空射擊」玩法類型，非任一商業作品復刻。
 
-也可當作 [Playgrounds（遊樂場）](https://samkuo.me/playgrounds/) 的 **SAM**（`index.html` 入口）。覺得手感或關卡不夠完美？在 Playgrounds 裡開開看，再叫 AI 幫你改一版。
+也可當作 [Playgrounds（遊樂場）](https://play.samkuo.me/) 的 **SAM**（`index.html` 入口）。覺得手感或關卡不夠完美？在 Playgrounds 裡開開看，再叫 AI 幫你改一版。
 
 ## 一鍵開 SAM 小
 
-**[一鍵開 SAM 小](https://samkuo.me/playgrounds/?open=sampot%2Fpg-starshot&name=%E6%98%9F%E5%B1%91%E5%87%BA%E6%93%8A)**
+**[一鍵開 SAM 小](https://play.samkuo.me/?open=sampot%2Fpg-starshot&name=%E6%98%9F%E5%B1%91%E5%87%BA%E6%93%8A)**
 
 ```
-https://samkuo.me/playgrounds/?open=sampot/pg-starshot&name=星屑出擊
+https://play.samkuo.me/?open=sampot/pg-starshot&name=星屑出擊
 ```
 
 同源會重用本機已匯入的沙盒；要強制新建可加 `&fresh=1`。
